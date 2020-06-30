@@ -1,7 +1,3 @@
-// //The example usage shown at the beginning
-// The .question(query, callback) function
-// The .close() function
-
 
 const readline = require('readline');
 
@@ -38,9 +34,6 @@ rl.question(`What's your name? Nicknames are also acceptable :) `, (answer) => {
 
               console.log(
                 `${answersForProfile[0]} loves to ${answersForProfile[1]} while listening to ${answersForProfile[2]},dovouring ${answersForProfile[4]} for ${answersForProfile[3]}, prefers to play ${answersForProfile[5]}, and is amazing at ${answersForProfile[6]}`)
-              
-
-
 
             });
           });
